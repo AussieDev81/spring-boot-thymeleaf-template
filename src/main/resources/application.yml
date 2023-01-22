@@ -1,0 +1,7 @@
+# Common settings
+
+spring:
+  application:
+    name: Spring Boot Thymeleaf Template
+  profiles:
+    active: h2

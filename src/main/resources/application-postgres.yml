@@ -1,0 +1,18 @@
+# Postgres database
+
+spring:
+  config:
+    name: POSTGRES
+  datasource:
+    url: ${POSTGRES_DATABASE_URL}
+    username: ${POSTGRES_DATABASE_USER}
+    password: ${POSTGRES_DATABASE_PASSWORD}
+    driver-class-name: org.postgresql.Driver
+    hikari:
+      connection-timeout: 2000
+      maximum-pool-size: 5
+  jpa:
+    show-sql: true
+    open-in-view: true
+    hibernate:
+      ddl-auto: update
