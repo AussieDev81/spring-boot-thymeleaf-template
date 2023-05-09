@@ -3,5 +3,11 @@
 spring:
   application:
     name: Spring Boot Thymeleaf Template
+    title:
+    domain:
+    url:
+    description:
+    keywords:
+    authors:
   profiles:
     active: h2
